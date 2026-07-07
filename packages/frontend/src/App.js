@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Full-Stack Playground: React Meets Node</h1>
+        <h1>Hello World</h1>
         <p>Connected to in-memory database</p>
       </header>
       

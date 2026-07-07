@@ -50,7 +50,7 @@ describe('App Component', () => {
     await act(async () => {
       render(<App />);
     });
-    expect(screen.getByText('Full-Stack Playground: React Meets Node')).toBeInTheDocument();
+    expect(screen.getByText('Hello World')).toBeInTheDocument();
     expect(screen.getByText('Connected to in-memory database')).toBeInTheDocument();
   });
 
