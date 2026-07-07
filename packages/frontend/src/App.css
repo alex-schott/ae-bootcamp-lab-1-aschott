@@ -67,10 +67,23 @@ li {
   padding: 10px;
   border-bottom: 1px solid #ddd;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
 }
 
 li:last-child {
   border-bottom: none;
+}
+
+li button {
+  background-color: #e57373;
+  color: #fff;
+}
+
+li button:hover {
+  background-color: #d32f2f;
 }
 
 .error {
